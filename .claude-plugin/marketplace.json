@@ -2329,7 +2329,7 @@
       "category": "Automation DevOps",
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/cc-aws-keepalive",
       "repository": "https://github.com/GeiserX/cc-aws-keepalive",
-      "license": "GPL-3.0",
+      "license": "GPL-3.0-or-later",
       "keywords": [
         "aws",
         "bedrock",

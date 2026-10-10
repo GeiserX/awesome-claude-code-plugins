@@ -3,7 +3,7 @@
 This package is a modified derivative of
 [`GeiserX/cc-aws-keepalive` 0.5.0](https://github.com/GeiserX/cc-aws-keepalive/tree/v0.5.0),
 distributed by the Awesome Claude Code Plugins marketplace as
-`0.5.1-ccplugins.1` under GPL-3.0.
+`0.5.1-ccplugins.1` under GPL-3.0-or-later.
 
 Changes made on 2026-08-12:
 
@@ -16,6 +16,12 @@ Changes made on 2026-08-12:
 - document the aggregate-marketplace installation path and external Node.js 18+
   prerequisite; and
 - add regression tests for these downstream integrations and security fixes.
+
+Changes made on 2026-10-10:
+
+- declare the license as `GPL-3.0-or-later` in `package.json`, `plugin.json`
+  and the marketplace entry, matching the upstream project's current
+  declaration.
 
 The original copyright notices and GPL-3.0 license are retained in
 [LICENSE](LICENSE).
