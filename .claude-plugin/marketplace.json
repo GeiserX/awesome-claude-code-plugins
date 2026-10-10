@@ -2321,7 +2321,7 @@
       "name": "cc-aws-keepalive",
       "source": "./plugins/cc-aws-keepalive",
       "description": "Proactive AWS credential expiry detection, session-surviving credential refresh, and optional statusline timer for Claude Code on Bedrock.",
-      "version": "0.5.1-ccplugins.1",
+      "version": "0.5.2-ccplugins.1",
       "author": {
         "name": "GeiserX",
         "url": "https://github.com/GeiserX"

@@ -1,7 +1,7 @@
 {
   "name": "cc-aws-keepalive",
   "description": "Keep Claude Code sessions alive through AWS credential expiration",
-  "version": "0.5.1-ccplugins.1",
+  "version": "0.5.2-ccplugins.1",
   "author": {
     "name": "GeiserX",
     "email": "9169332+GeiserX@users.noreply.github.com"
