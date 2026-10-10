@@ -21,6 +21,8 @@
     - [市场营销与增长](#市场营销与增长)
     - [项目与产品管理](#项目与产品管理)
     - [安全、合规与法律](#安全、合规与法律)
+    - [MCP 服务器](#mcp-服务器)
+* [插件市场](#插件市场)
 * [使用教程](#使用教程)
 * [如何贡献](#如何贡献)
 
@@ -49,7 +51,7 @@
 
 ### Claude Code 官方插件
 - [agent-sdk-dev](./plugins/agent-sdk-dev)
-- [pr-review-toolkit](./plugins/pr-review-toolkit")
+- [pr-review-toolkit](./plugins/pr-review-toolkit)
 - [commit-commands](./plugins/commit-commands)
 - [feature-dev](./plugins/feature-dev)
 - [security-guidance](./plugins/security-guidance)
@@ -65,15 +67,25 @@
 - [studio-coach](./plugins/studio-coach)
 - [tree-ring-memory](https://github.com/TerminallyLazy/tree-ring-memory-claude-plugin)
 - [ultrathink](./plugins/ultrathink)
+- [agent-manager-skill](./plugins/agent-manager-skill)
+- [context-mode](./plugins/context-mode)
+- [cc-inspect](./plugins/cc-inspect)
+- [omega-memory](./plugins/omega-memory)
+- [idea-to-deploy](./plugins/idea-to-deploy)
+- [bobusang](https://github.com/jun0-ds/bobusang) — Claude Code多设备记忆系统，通过git自动同步在Windows、WSL2和Linux之间同步上下文。
+- [magic-cc-codex-worker](./plugins/magic-cc-codex-worker)
+- [ai-meeting](./plugins/ai-meeting)
+- [craftsman](./plugins/craftsman)
+- [rote](./plugins/rote)
 
 ### 自动化运维
-- [cc-aws-keepalive](./plugins/cc-aws-keepalive)
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
 - [kubestellar-console](./plugins/kubestellar-console)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
+- [cc-aws-keepalive](./plugins/cc-aws-keepalive)
 
 ### 商务销售
 - [b2b-project-shipper](./plugins/b2b-project-shipper)
@@ -103,6 +115,7 @@
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
+- [sonmat](https://github.com/jun0-ds/sonmat) — 验证纪律插件，六个反应轴（guard、inspect、witness、punch、devil's advocate、scribe）用于AI-人类协作。
 
 ### 数据分析
 - [analytics-reporter](./plugins/analytics-reporter)
@@ -112,6 +125,8 @@
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
 - [trend-researcher](./plugins/trend-researcher)
+- [x-twitter-scraper](./plugins/x-twitter-scraper)
+- [session-tax](./plugins/session-tax)
 
 ### 用户体验设计
 - [brand-guardian](./plugins/brand-guardian)
@@ -139,6 +154,11 @@
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
+- [lightcms](./plugins/lightcms)
+- [deapi-media](./plugins/deapi-media)
+- [slack-message-formatter](./plugins/slack-message-formatter)
+- [cc-hud](https://github.com/WaterTian/cc-hud) — 紧凑单行状态栏：模型名称、上下文用量进度条、活跃子代理、速率限制。零依赖。
+- [skill-auto-installer](./plugins/skill-auto-installer)
 
 ### 文档管理
 - [analyze-codebase](./plugins/analyze-codebase)
@@ -150,6 +170,9 @@
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
 - [update-claudemd](./plugins/update-claudemd)
+- [verifying-phd-citations](./plugins/verifying-phd-citations)
+- [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
+- [trigger-tree](https://github.com/Hedde/trigger_tree)
 
 ### Git工作流
 - [analyze-issue](./plugins/analyze-issue)
@@ -176,6 +199,7 @@
 - [taisly-agent-kit](https://github.com/taisly/agent)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [twitter-engager](./plugins/twitter-engager)
+- [yaohe](./plugins/yaohe)
 
 ### 项目与产品管理
 - [discuss](./plugins/discuss)
@@ -188,6 +212,7 @@
 - [studio-producer](./plugins/studio-producer)
 - [tool-evaluator](./plugins/tool-evaluator)
 - [workflow-optimizer](./plugins/workflow-optimizer)
+- [product-org-os](./plugins/product-org-os)
 
 ### 安全、合规与法律
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
@@ -197,7 +222,16 @@
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+- [shellgate](./plugins/shellgate)
+- [web-security-guard](./plugins/web-security-guard)
+- [agent-safety-preflight](./plugins/agent-safety-preflight)
 
+
+### MCP 服务器
+- [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
+
+## 插件市场
+- [protonium](https://github.com/protonium-labs/protonium-marketplace) —— AI 智能体与效率工具。包含 **AxiomCore**：项目与日常事务管理智能体，提供强制化结构（编号目录、任务 ID、wiki 记忆）、计划 → 确认 → 执行工作流，支持敏捷或 WBS 方式创建项目.
 
 ## 使用教程
 

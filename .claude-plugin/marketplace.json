@@ -1787,6 +1787,537 @@
       ]
     },
     {
+      "name": "agent-manager-skill",
+      "source": "./plugins/agent-manager-skill",
+      "description": "Orchestrate multiple local CLI agents via tmux using agent-manager-skill (start/stop/monitor/assign + cron-friendly scheduling).",
+      "version": "0.1.0",
+      "author": {
+        "name": "fractalmind-ai",
+        "url": "https://github.com/fractalmind-ai"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/agent-manager-skill",
+      "keywords": [
+        "workflow",
+        "orchestration",
+        "tmux",
+        "agents",
+        "monitoring",
+        "scheduling"
+      ]
+    },
+    {
+      "name": "x-twitter-scraper",
+      "source": "./plugins/x-twitter-scraper",
+      "description": "Connect Claude Code to Xquik for X data research, extraction, monitoring, and exports. Run approved actions through its remote MCP server. Not affiliated with X Corp.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Xquik"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "keywords": [
+        "mcp",
+        "subagent",
+        "x-data"
+      ]
+    },
+    {
+      "name": "claude-ecom",
+      "source": "./plugins/claude-ecom",
+      "description": "Converts ecommerce order/sales CSV data into consultant-style business reviews with KPI decomposition, prioritized findings, and action plans.",
+      "version": "0.1.3",
+      "author": {
+        "name": "takechanman1228",
+        "url": "https://github.com/takechanman1228"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://github.com/takechanman1228/claude-ecom",
+      "keywords": [
+        "ecommerce",
+        "analytics",
+        "data"
+      ]
+    },
+    {
+      "name": "product-org-os",
+      "source": "./plugins/product-org-os",
+      "description": "An entire product organization as AI agents. 12 role-based agents, 150+ skills, 38 knowledge packs, and 2 gateways covering product management, strategy, GTM, competitive intelligence, and more. Built on the Agent Skills open standard.",
+      "version": "4.0.0",
+      "author": {
+        "name": "Yohay Etsion",
+        "url": "https://github.com/yohayetsion"
+      },
+      "category": "Project & Product Management",
+      "homepage": "https://github.com/yohayetsion/product-org-os",
+      "keywords": [
+        "subagent",
+        "product-management",
+        "strategy",
+        "gtm",
+        "competitive-intelligence"
+      ]
+    },
+    {
+      "name": "nhs-mcp-search",
+      "source": "./plugins/nhs-mcp-search",
+      "description": "Search 8,600+ AI tools, MCP servers, and APIs via Not Human Search. Query the index, check agentic readiness scores, verify MCP endpoints, and submit new tools.",
+      "version": "1.0.0",
+      "author": {
+        "name": "United Ideas",
+        "url": "https://nothumansearch.ai"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://nothumansearch.ai",
+      "keywords": [
+        "mcp",
+        "search",
+        "ai-tools",
+        "discovery"
+      ]
+    },
+    {
+      "name": "ai-dev-jobs-search",
+      "source": "./plugins/ai-dev-jobs-search",
+      "description": "Search 5,400+ AI and ML developer jobs with salary data, company info, and remote filters via AI Dev Jobs MCP server.",
+      "version": "1.0.0",
+      "author": {
+        "name": "United Ideas",
+        "url": "https://aidevboard.com"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://aidevboard.com",
+      "keywords": [
+        "jobs",
+        "ai",
+        "career",
+        "search"
+      ]
+    },
+    {
+      "name": "bedrock",
+      "description": "Second Brain automation for Obsidian vaults — entity management, ingestion, compression, and sync via Claude Code skills",
+      "version": "1.2.0",
+      "author": {
+        "name": "Iury Krieger",
+        "url": "https://github.com/iurykrieger"
+      },
+      "source": "./plugins/bedrock",
+      "category": "Knowledge Management",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/bedrock",
+      "keywords": [
+        "obsidian",
+        "second-brain",
+        "knowledge-base",
+        "zettelkasten",
+        "vault",
+        "knowledge-management",
+        "knowledge-graph",
+        "note-taking"
+      ]
+    },
+    {
+      "name": "verifying-phd-citations",
+      "source": "./plugins/verifying-phd-citations",
+      "description": "Verifies and formats APA 7 Korean academic citations across 14 source types, augments DOIs via CrossRef, and applies CopyKiller 99-rule avoidance.",
+      "version": "0.4.0",
+      "author": {
+        "name": "Jaeyong Choi",
+        "url": "https://github.com/dpyeye-commits"
+      },
+      "category": "Documentation",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/verifying-phd-citations",
+      "keywords": [
+        "documentation",
+        "apa7",
+        "korean",
+        "academic",
+        "citation",
+        "crossref"
+      ]
+    },
+    {
+      "name": "claude-persona",
+      "source": "./plugins/claude-persona",
+      "description": "Build AI persona panels and pressure-test product concepts before fieldwork. Agent-separated simulation with theme synthesis, cross-tabs, and verbatims. Inspired by TinyTroupe.",
+      "version": "0.1.0",
+      "author": {
+        "name": "takechanman1228",
+        "url": "https://github.com/takechanman1228"
+      },
+      "category": "Marketing Growth",
+      "homepage": "https://github.com/takechanman1228/claude-persona",
+      "keywords": [
+        "persona",
+        "market-research",
+        "concept-test",
+        "consumer-research",
+        "tinytroupe"
+      ]
+    },
+    {
+      "name": "hyperflow",
+      "source": "./plugins/hyperflow",
+      "description": "Advanced multi-agent orchestration with persistent cross-session memory, per-step multi-level review, persona stitching, and adaptive flow profiles.",
+      "version": "2.6.2",
+      "author": {
+        "name": "Mohammed Abdelhady",
+        "url": "https://github.com/Mohammed-Abdelhady"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/Mohammed-Abdelhady/hyperflow",
+      "keywords": [
+        "multi-agent",
+        "workflow-chain",
+        "code-review",
+        "project-memory",
+        "multi-tool"
+      ]
+    },
+    {
+      "name": "thermal-fluid-research-workflow",
+      "source": "./plugins/thermal-fluid-research-workflow",
+      "description": "Thermal-fluid mechanical engineering research workflow for literature review, technical writing, data analysis, presentations, proposals, research coding, and AI/ML-assisted workflows.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Han Hu",
+        "email": "72934230+hanhuark@users.noreply.github.com",
+        "url": "https://github.com/hanhuark"
+      },
+      "category": "Documentation",
+      "homepage": "https://github.com/hanhuark/mechanical-engineering-research-skill",
+      "keywords": [
+        "thermal-fluids",
+        "mechanical-engineering",
+        "research",
+        "technical-writing",
+        "proposal-development",
+        "literature-review",
+        "data-analysis",
+        "claude-code",
+        "codex-skill"
+      ]
+    },
+    {
+      "name": "tldr",
+      "source": "./plugins/tldr",
+      "description": "Keeps Claude Code's replies short. Turn it on and every answer stays under five lines until you turn it off.",
+      "version": "1.0.0",
+      "author": {
+        "name": "rodrigooler"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/rodrigooler/claude-code-tldr",
+      "keywords": [
+        "productivity",
+        "concise"
+      ]
+    },
+    {
+      "name": "web-security-guard",
+      "source": "./plugins/web-security-guard",
+      "description": "Integrated security for websites and apps: hardening, secure authentication (email verification, 2FA, passkeys), payment privacy, WAF defense agent with lockdown, 4-layer Fortress architecture and automated GitHub security workflows.",
+      "version": "0.2.1",
+      "author": {
+        "name": "Fede",
+        "url": "https://github.com/ayalaphiscan"
+      },
+      "category": "Security, Compliance, & Legal",
+      "homepage": "https://github.com/ayalaphiscan/web-security-guard",
+      "keywords": [
+        "security",
+        "waf",
+        "hardening",
+        "2fa",
+        "payments"
+      ]
+    },
+    {
+      "name": "design-from-code",
+      "source": "./plugins/design-from-code",
+      "description": "Design UI changes from real source code: trace handler->query->schema to confirm what each number counts, iterate faithful AS-IS/TO-BE HTML mockups (keep/new/changed tags), lock a design doc, then delegate. Claude Code plugin & Codex skill.",
+      "version": "1.0.0",
+      "author": {
+        "name": "nlook"
+      },
+      "category": "Design UX",
+      "homepage": "https://github.com/nlook-service/design-from-code",
+      "keywords": [
+        "design",
+        "ui",
+        "mockup",
+        "workflow",
+        "html"
+      ]
+    },
+    {
+      "name": "social-vision",
+      "source": "./plugins/social-vision",
+      "description": "Paste an Instagram, TikTok, YouTube (Shorts), or X/Twitter link and Claude watches it for you — transcribes the audio, reads on-screen text and visuals, and explains what it's about. Local and cross-platform.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Shivang Trivedi",
+        "url": "https://github.com/Shivang0"
+      },
+      "category": "Marketing Growth",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/social-vision",
+      "keywords": [
+        "video",
+        "instagram",
+        "tiktok",
+        "youtube",
+        "twitter",
+        "transcription"
+      ]
+    },
+    {
+      "name": "forkmind",
+      "source": "./plugins/forkmind",
+      "description": "Local-first LLM branching & debugging. Treat AI context windows like a Git repo — capture, branch, and regression-test LLM calls as a DAG. Free & local via Ollama, any OpenAI-compatible API, and MCP for agents.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Medhovarsh Bayyapureddi",
+        "url": "https://github.com/Medhovarsh"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/forkmind",
+      "keywords": [
+        "llm",
+        "debugging",
+        "observability",
+        "mcp"
+      ]
+    },
+    {
+      "name": "yaohe",
+      "source": "./plugins/yaohe",
+      "description": "吆喝 — Let your agent promote your open-source project across 20 CN & EN channels, rule-abiding and per-channel tailored.",
+      "version": "0.1.0",
+      "author": {
+        "name": "nmhjklnm"
+      },
+      "category": "Marketing Growth",
+      "homepage": "https://github.com/nmhjklnm/yaohe",
+      "keywords": [
+        "open-source",
+        "promotion",
+        "marketing",
+        "launch"
+      ]
+    },
+    {
+      "name": "app-starter",
+      "source": "./plugins/app-starter",
+      "description": "Bootstrap new Next.js, Flutter, and FastAPI apps with current packages, no deprecated APIs, and a consistent house style. Ships skills nextjs-app, flutter-app, and fastapi-app.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Aneeb Baig"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/aneebbaig/app-starter-skills",
+      "keywords": [
+        "nextjs",
+        "flutter",
+        "fastapi",
+        "scaffold",
+        "starter",
+        "bootstrap"
+      ]
+    },
+    {
+      "name": "ai-meeting",
+      "description": "Run structured multi-agent decision reviews with Codex, Claude Code, and adapter-based CLI agents.",
+      "version": "0.1.0",
+      "author": {
+        "name": "bin1874",
+        "email": "constantine.ff@gmail.com"
+      },
+      "source": "./plugins/ai-meeting",
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ai-meeting",
+      "keywords": [
+        "workflow",
+        "multi-agent",
+        "decision-review",
+        "codex",
+        "claude-code"
+      ]
+    },
+    {
+      "name": "claude-bionify",
+      "source": "./plugins/claude-bionify",
+      "description": "Bionic reading for Claude Code responses that bolds the leading part of each word to improve readability and focus.",
+      "version": "1.0.1",
+      "author": {
+        "name": "Samuel Ruairí Bullard",
+        "url": "https://github.com/abullard1"
+      },
+      "category": "Design UX",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/claude-bionify",
+      "keywords": [
+        "accessibility",
+        "readability",
+        "bionic-reading",
+        "focus",
+        "claude-code"
+      ]
+    },
+    {
+      "name": "fable-baton",
+      "source": "./plugins/fable-baton",
+      "description": "Makes Fable 5 the orchestrator: Fable keeps judgment, tiered Opus/Sonnet/Haiku subagents do the labor, and hooks enforce the delegation.",
+      "version": "1.3.0",
+      "author": {
+        "name": "realgarit"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/fable-baton",
+      "keywords": [
+        "orchestration",
+        "agents",
+        "delegation",
+        "fable",
+        "token-efficiency"
+      ]
+    },
+    {
+      "name": "craftsman",
+      "source": "./plugins/craftsman",
+      "description": "Engineering-discipline toolkit: minimal-diff coding, root-cause debugging, recurring-bug detection, and honest completion reports. Ten agents, seven skills, and cross-platform hooks.",
+      "version": "0.5.1",
+      "author": {
+        "name": "bufferbrew"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/bufferBrew/craftsman",
+      "keywords": [
+        "agents",
+        "skills",
+        "debugging",
+        "code-review",
+        "orchestration"
+      ]
+    },
+    {
+      "name": "slicewise",
+      "description": "A disciplined, self-verifying feature-dev loop: every commit unit gets dual-model review and a reconcile pass, tests are the ground truth, and you decide what lands (no auto-commit). Stack-agnostic via config plus auto-detect.",
+      "version": "0.1.0",
+      "author": {
+        "name": "jwpark",
+        "url": "https://github.com/pjw81226"
+      },
+      "source": "./plugins/slicewise",
+      "category": "Code Quality Testing",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/slicewise",
+      "keywords": [
+        "code-review",
+        "testing",
+        "workflow"
+      ]
+    },
+    {
+      "name": "trigger-tree",
+      "displayName": "trigger-tree",
+      "source": {
+        "source": "github",
+        "repo": "Hedde/trigger_tree"
+      },
+      "description": "Local documentation-discovery telemetry for Claude Code with live dashboards, heat maps, health diagnostics, and evidence-backed router fixes.",
+      "version": "0.8.0",
+      "author": {
+        "name": "Hedde van der Heide",
+        "url": "https://github.com/Hedde"
+      },
+      "category": "Documentation",
+      "homepage": "https://hedde.github.io/trigger_tree/",
+      "repository": "https://github.com/Hedde/trigger_tree",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "docs-as-code",
+        "documentation",
+        "observability",
+        "telemetry"
+      ],
+      "tags": [
+        "documentation",
+        "local-first",
+        "observability"
+      ]
+    },
+    {
+      "name": "bullpen",
+      "source": "./plugins/bullpen",
+      "description": "The senior dev, unbundled: ten senior-dev instincts as skills (skeptic, closer, attacker, fact-checker, interrogator, stop-digging, doorman, historian, chameleon, explainer), each with lite/full/ultra intensity.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Mohammed Faizan Mohiuddin"
+      },
+      "category": "Code Quality Testing",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/bullpen",
+      "keywords": [
+        "code-quality",
+        "code-review",
+        "skills",
+        "agent-behavior"
+      ]
+    },
+    {
+      "name": "rote",
+      "description": "Compile a proven skill (a SKILL.md plus references) into a deterministic pipeline that runs without an LLM in the loop, then serve the compiled pipelines back to Claude as MCP tools.",
+      "version": "0.12.0",
+      "author": {
+        "name": "Trevor Hudson",
+        "url": "https://github.com/trevhud"
+      },
+      "source": "./plugins/rote",
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/trevhud/rote",
+      "keywords": [
+        "workflow",
+        "compilation",
+        "deterministic",
+        "temporal",
+        "dbos",
+        "mcp"
+      ]
+    },
+    {
+      "name": "claude-session-tint",
+      "source": "./plugins/claude-session-tint",
+      "description": "Tint a Terminal.app window by project and brighten it when a Claude Code response finishes unseen; tabs sharing a window get a tab-title marker instead. Includes a UserPromptSubmit hook that runs an input-box command without invoking the model.",
+      "version": "1.2.1",
+      "author": {
+        "name": "DotcomJack"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/dotcomjack/claude-session-tint",
+      "keywords": [
+        "terminal",
+        "macos",
+        "hooks",
+        "multi-session"
+      ]
+    },
+    {
+      "name": "session-tax",
+      "source": "./plugins/session-tax",
+      "description": "Measure what your Claude Code setup costs on every session before you type anything - opening context, what loads, and how much of it never gets used.",
+      "version": "1.0.0",
+      "author": {
+        "name": "CraniusMaximus LLC",
+        "url": "https://github.com/craniusmaximusllc"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/session-tax",
+      "keywords": [
+        "context",
+        "cost",
+        "tokens",
+        "audit"
+      ]
+    },
+    {
       "name": "cc-aws-keepalive",
       "source": "./plugins/cc-aws-keepalive",
       "description": "Proactive AWS credential expiry detection, session-surviving credential refresh, and optional statusline timer for Claude Code on Bedrock.",

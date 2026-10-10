@@ -9,29 +9,34 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 * [Use Cases](#use-cases)
 * [Plugins](#plugins)
     - [Official Claude Code Plugins](#official-claude-code-plugins)
-- [lazymac/mcp](https://github.com/lazymac2x/lazymac-mcp) — Unified MCP server exposing 42+ developer tools (qr, ip-geo, ai-cost, llm-router, k-privacy, korean-nlp) backed by Cloudflare Workers. `npx -y @lazymac/mcp`
-- [lazymac/k-mcp](https://github.com/lazymac2x/lazymac-k-mcp) — Korean wedge MCP — PIPA compliance, KRW + BOK rates, 사업자등록번호 lookup, address geocoding, NLP. `npx -y @lazymac/k-mcp`
     - [Workflow Orchestration](#workflow-orchestration)
+    - [AI & Speech](#ai--speech)
     - [Automation DevOps](#automation-devops)
     - [Business Sales](#business-sales)
     - [Code Quality Testing](#code-quality-testing)
     - [Communication & Integrations](#communication--integrations)
     - [Data Analytics](#data-analytics)
+    - [Audio & Media](#audio--media)
     - [Design UX](#design-ux)
     - [Development Engineering](#development-engineering)
     - [Documentation](#documentation)
     - [Git Workflow](#git-workflow)
     - [Marketing Growth](#marketing-growth)
     - [Project & Product Management](#project--product-management)
+    - [Lifestyle & Entertainment](#lifestyle--entertainment)
     - [Security, Compliance, & Legal](#security-compliance--legal)
+    - [MCP Servers](#mcp-servers)
+    - [Thinking & Knowledge Management](#thinking--knowledge-management)
+    - [Companion Apps & Tools](#companion-apps--tools)
+    - [Knowledge Management](#knowledge-management)
 * [External Marketplaces](#external-marketplaces)
+    - [Skills & Frameworks](#skills--frameworks)
+* [Resources](#resources)
 * [Tutorials](#tutorials)
+* [Marketplaces](#marketplaces)
 * [Contributing](#contributing)
 
 ## What is Claude Code Plugin?
-- [Lobex](https://github.com/chrisgu/lobex-mcp) - Agent-to-agent marketplace. Remote MCP `https://lobex.app/mcp` + stdio client. Site: https://lobex.app
-
-
 [Claude Code Plugin](https://docs.claude.com/en/docs/claude-code/plugins) is lightweight package that let you customize and share your Claude Code setup.
  Each plugin can include any combination of:
 
@@ -41,7 +46,6 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 - **Hooks** — Extensions that modify Claude Code's behavior at key workflow points
 
 Install or disable them dynamically with the `/plugin` command — enabling you to keep your system context focused and lightweight.
-- [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
 
 ## Use Cases
 
@@ -56,7 +60,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Official Claude Code Plugins
 - [agent-sdk-dev](./plugins/agent-sdk-dev)
-- [pr-review-toolkit](./plugins/pr-review-toolkit")
+- [pr-review-toolkit](./plugins/pr-review-toolkit)
 - [commit-commands](./plugins/commit-commands)
 - [feature-dev](./plugins/feature-dev)
 - [security-guidance](./plugins/security-guidance)
@@ -80,13 +84,37 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [tree-ring-memory](https://github.com/TerminallyLazy/tree-ring-memory-claude-plugin)
 - [ultrathink](./plugins/ultrathink)
 - [pro-workflow](https://github.com/rohitg00/pro-workflow) - Self-correcting memory, 17 skills, 6 agents, 16 commands, 23 hooks. Context engineering, parallel worktrees, and agent teams.
+- [claude-reflect](./plugins/claude-reflect) - Self-learning system that captures corrections during sessions and syncs to CLAUDE.md with human review
+- [agent-manager-skill](./plugins/agent-manager-skill)
+- [conductor-orchestrator-superpowers](./plugins/conductor-orchestrator-superpowers)
+- [context-mode](./plugins/context-mode)
+- [Claude Forge](https://github.com/sangrokjung/claude-forge) — oh-my-zsh for Claude Code: 11 agents, 36 commands, 15 skills, 14 hooks, 6-layer security. Install in 5 min.
+- [claude-memory-manager](https://github.com/WhymustIhaveaname/claude-memory-manager) - Global memory tier for Claude Code. Stores cross-project memories in ~/.claude/memory/, injects them via SessionStart hook. Includes a web UI for managing all memory files without digging through directories.
+- [ultraship](./plugins/ultraship)
+- [launch-swarm](https://github.com/harshmoney123/launch-swarm) - 6-agent Claude Code swarm with strict role separation, dual-gate merge pipeline, and prompt health anti-rot
+- [cc-inspect](./plugins/cc-inspect)
+- [omega-memory](./plugins/omega-memory)
+- [idea-to-deploy](./plugins/idea-to-deploy)
+- [nexus-agents](https://github.com/williamzujkowski/nexus-agents) — Multi-CLI orchestration with 30 MCP tools, 12 expert agents, 17 skills, and Budget→TOPSIS→LinUCB routing. Coordinates Claude, Gemini, Codex, and OpenCode via consensus voting.
+- [bobusang](https://github.com/jun0-ds/bobusang) — Multi-device memory system for Claude Code. Syncs context across Windows, WSL2, and Linux with git-based auto-sync.
+- [magic-cc-codex-worker](./plugins/magic-cc-codex-worker)
+- [weft](./plugins/weft)
+- [hyperflow](./plugins/hyperflow)
+- [espresso](https://github.com/mirkobozzetto/espresso) - Full token-saving stack. Output compression, global rules, RTK, Caveman, GitNexus auto-config. Detects existing setup, installs only what's missing.
+- [aicoo-skills](https://www.aicoo.io) - AI COO agent skills: share agent via links, agent-to-agent communication, autonomous heartbeat loops, context sync, Aicoo Square discovery board
+- [devforge-ai](https://github.com/saitarrun/devforge-ai) — Agentic SDLC orchestration for Claude Code: 10 role-specific agents across Plan → Build → Verify → Ship → Operate phases with tracer bullet delivery
+- [ai-meeting](./plugins/ai-meeting)
+- [praetor](./plugins/praetor)
+- [fable-baton](./plugins/fable-baton)
+- [craftsman](./plugins/craftsman)
+- [rote](./plugins/rote)
+- [claude-session-tint](./plugins/claude-session-tint)
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
 
 ### Automation DevOps
 - [PUIUX Pilot](https://github.com/PUIUX-Cloud/puiux-pilot) - Auto-configures Claude Code hooks, MCPs, and skills for any project. Scans 95+ project types, selects from 28+ hooks, scores quality (0-100, A-F). `npm i -g puiux-pilot`
-- [cc-aws-keepalive](./plugins/cc-aws-keepalive)
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [MyVibe](https://www.myvibe.so) - Instant deployment with `/myvibe:publish`
@@ -96,6 +124,12 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
 - [qovery-deploy](https://github.com/Qovery/qovery-skills) - Deploy any app to Kubernetes on AWS/GCP/Azure/Scaleway. Creates Dockerfiles, provisions databases, deploys via CLI+API or Terraform. Install: `curl -fsSL https://skill.qovery.com/install.sh | bash`
 - [screenshot-janitor](./plugins/screenshot-janitor)
+- [aws-cost-saver](./plugins/aws-cost-saver)
+- [prompt-chime](https://github.com/pick/prompt-chime) - Cross-platform notification plugin with meme sound presets, toast notifications, profiles, quiet hours, and per-project overrides.
+- [cc-aws-keepalive](./plugins/cc-aws-keepalive)
+- [claude-snapshot](https://github.com/adhenawer/claude-snapshot) - Portable `.tar.gz` snapshots of your Claude Code setup (settings, hooks, plugins, MCPs) with diff-before-apply and `.bak` rollback for migration and backup across machines.
+- [notify](https://github.com/ApurvBazari/claude-plugins)
+- [retro-daily](./plugins/retro-daily)
 
 ### Business Sales
 - [Drevon](https://drevon.dev) - Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel.
@@ -110,6 +144,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [stratarts](./plugins/stratarts)
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
 - [founder-toolkit](https://github.com/mooster/founder-toolkit) - 4 skills for startup founders: investor update writer (YC/a16z format), pitch deck reviewer (10-dimension VC scoring), SaaS metrics dashboard with benchmarks, and outreach lead scorer (ICP-first, tested on 300+ companies). Built by Mu Chen, CEO of Canopy Cloud ($120B+ AUM).
+- [overloop-cli](./plugins/overloop-cli)
+- [signals-cli](./plugins/signals-cli)
 
 ### Code Quality Testing
 - [autoresearch](./plugins/autoresearch)
@@ -133,6 +169,12 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [unit-test-generator](./plugins/unit-test-generator)
 - [vibe-guard](https://github.com/ofershap/vibe-guard) - Always-on security guardrails for AI-generated code
 - [think-first](https://github.com/ofershap/think-first) - Plan-before-code behavior modifier for agents
+- [sonmat](https://github.com/jun0-ds/sonmat) — Verification discipline plugin with six reactive axes (guard, inspect, witness, punch, devil's advocate, scribe) for AI-human collaboration.
+- [slm-mcp-hub](https://github.com/qualixar/slm-mcp-hub) - External: Universal MCP gateway federating 430+ tools from 37 servers through one endpoint. 75% RAM reduction.
+- [tailtest](https://github.com/avansaber/tailtest) - Automatically generates and runs tests for every file Claude Code creates or modifies. PostToolUse hook detects changes, generates test scenarios, runs them, and surfaces failures. 8 languages (Python, TypeScript, JavaScript, Go, Ruby, PHP, Java, Rust). Zero config, zero commands.
+- [adamsreview](./plugins/adamsreview)
+- [slicewise](./plugins/slicewise)
+- [bullpen](./plugins/bullpen)
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
@@ -148,6 +190,14 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [newsmcp](https://github.com/pranciskus/newsmcp) — Real-time world news for AI agents — events clustered from hundreds of sources, classified by 12 topics and 30+ geographic regions, ranked by importance. Free, no API key required.
 - [trend-researcher](./plugins/trend-researcher)
 - [wellnizz](./plugins/wellnizz)
+- [xpoz-brand-intelligence](./plugins/xpoz-brand-intelligence) - Brand sentiment, competitive analysis, and influencer discovery using real-time Twitter/X data
+- [x-twitter-scraper](./plugins/x-twitter-scraper)
+- [claude-ecom](./plugins/claude-ecom)
+- [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) — Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
+- [flex-claudecode](./plugins/flex-claudecode)
+- [ai-dev-jobs-search](./plugins/ai-dev-jobs-search)
+- [nhs-mcp-search](./plugins/nhs-mcp-search)
+- [session-tax](./plugins/session-tax)
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
@@ -164,6 +214,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ux-researcher](./plugins/ux-researcher)
 - [visual-storyteller](./plugins/visual-storyteller)
 - [whimsy-injector](./plugins/whimsy-injector)
+- [claude-bionify](./plugins/claude-bionify)
 
 ### Development Engineering
 - [claude-sounds](https://github.com/culminationAI/claude-sounds)
@@ -198,6 +249,19 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [expo-best-practices](https://github.com/ofershap/expo-best-practices) - Expo/React Native — navigation, EAS Build, platform splits
 - [flutter-best-practices](https://github.com/ofershap/flutter-best-practices) - Flutter/Dart 3 — GoRouter, Riverpod, sealed classes
 - [go-best-practices](https://github.com/ofershap/go-best-practices) - Modern Go — error wrapping, slog, context, goroutine lifecycle
+- [image-link](./plugins/image-link)
+- [agentkits-memory](./plugins/agentkits-memory)
+- [lightcms](./plugins/lightcms)
+- [deapi-media](./plugins/deapi-media)
+- [reporecall](https://github.com/proofofwork-agency/reporecall) - Local codebase memory for Claude Code. AST indexing (22 languages), call graphs, hybrid search. Injects context via hooks (~5ms). Also an MCP server.
+- [dotforge](https://github.com/luiseiman/dotforge) - Configuration factory for Claude Code — 17 skills, 7 agents, 15 stacks, audit scoring (0-10), practices pipeline.
+- [slack-message-formatter](./plugins/slack-message-formatter)
+- [cc-hud](https://github.com/WaterTian/cc-hud) — Compact single-line statusline: model name, context usage bar, active subagents, rate limits. Zero dependencies.
+- [vara-skills](./plugins/vara-skills)
+- [superlocalmemory](https://github.com/qualixar/superlocalmemory) - External: Persistent memory + learning MCP server for Claude Code. Zero-cloud, 6-channel retrieval, 16K+ monthly downloads. Backed by 3 arXiv papers.
+- [skill-auto-installer](./plugins/skill-auto-installer)
+- [tldr](./plugins/tldr)
+- [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
@@ -208,12 +272,16 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [documentation-generator](./plugins/documentation-generator)
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
-- [readme-best-practices](https://github.com/ofershap/readme-best-practices)
 - [update-claudemd](./plugins/update-claudemd)
 - [readme-best-practices](https://github.com/ofershap/readme-best-practices) - Stop agents from writing dry API-doc READMEs
 - [prompt-compression](https://github.com/ofershap/prompt-compression) - Compress docs/prompts into minimal tokens for AGENTS.md
 - [conversation-memory](https://github.com/ofershap/conversation-memory) - Give agents memory across sessions
 - [ai-humanizer](https://github.com/ofershap/ai-humanizer) - Remove AI-detectable patterns from generated content
+- [llm-wiki](https://github.com/praneybehl/llm-wiki-plugin) - Build a compounding, LLM-curated personal knowledge base in any project (Karpathy's LLM Wiki pattern). Skill + 5 `/wiki:*` commands with sharded indexes, BM25 search, and a structural lint script.
+- [swarmvault](./plugins/swarmvault)
+- [verifying-phd-citations](./plugins/verifying-phd-citations)
+- [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
+- [trigger-tree](https://github.com/Hedde/trigger_tree)
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
@@ -245,6 +313,17 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [toprank](./plugins/toprank)
 - [twitter-engager](./plugins/twitter-engager)
 - [wondelai-skills](https://github.com/wondelai/skills)
+- [agentkits-marketing](./plugins/agentkits-marketing)
+- [claude-code-marketing-skills](https://github.com/cognyai/claude-code-marketing-skills) - AI marketing skills: SEO Audit, Landing Page Review, Competitor Analysis, Ad Copy Writer, Lead Qualification. 5 free + premium via Cogny MCP
+- [unslop](./plugins/unslop)
+- [claude-persona](./plugins/claude-persona)
+- [Pulse](https://septimlabs.com/pulse?utm_source=awesome-list&utm_campaign=ccplugins) - Claude Code sub-agent that scores your X (Twitter) drafts against the published [twitter/the-algorithm](https://github.com/twitter/the-algorithm) heavy-ranker weights (+75 `reply_engaged_by_author`, -74 `negative_feedback_v2`, link tax, etc.) **before** you post. Outputs a 0-100 score, 5-axis breakdown, ship/rewrite verdict, and 3-5 concrete rewrites cited to which axis lifts. Drops into `~/.claude/agents/pulse.md`. Open-source sample: [github.com/septimlabs-code/septim-agents-pack-sample](https://github.com/septimlabs-code/septim-agents-pack-sample). $49 founding rate thru Mon 2026-05-26 ($79 after). [septimlabs.com/pulse](https://septimlabs.com/pulse)
+- [social-media-publisher](./plugins/social-media-publisher)
+- [Diffmode Growth Tactics](https://github.com/acogood/diffmode_free) — free plugin + marketplace that runs a growth-strategy pipeline: a competitor read, a buyer jobs-to-be-done map, and 7–9 unconventional acquisition tactics for bootstrapped founders. Claude Code + Codex, Apache-2.0.
+- [notfair](./plugins/notfair)
+- [social-vision](./plugins/social-vision)
+- [x-skills](https://github.com/sergebulaev/x-skills)
+- [yaohe](./plugins/yaohe)
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
@@ -262,6 +341,10 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [tool-evaluator](./plugins/tool-evaluator)
 - [tycana](./plugins/tycana)
 - [workflow-optimizer](./plugins/workflow-optimizer)
+- [prd-generator](https://github.com/dredozubov/prd-generator) — Self-contained PRD generator from conversation context
+- [agent-decision-record](./plugins/agent-decision-record)
+- [product-org-os](./plugins/product-org-os)
+- [governor](https://github.com/0xhimanshu/governor)
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
@@ -276,6 +359,33 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 - [openclaw-security](https://github.com/AtlasPA/openclaw-security) - 11-tool security suite for agent workspaces: integrity scanning, secret detection, permission auditing, network DLP, supply-chain checks, injection defense, credential lifecycle, compliance enforcement, audit trails, cryptographic signing, and incident response.
+- [privacy-mask](https://github.com/fullstackcrew-alpha/privacy-mask) - Detect and redact PII, API keys, and secrets in screenshots via OCR + regex before images reach Claude. 47 detection rules, Tesseract/RapidOCR support, UserPromptSubmit hook integration. 100% offline.
+- [skillfortify](https://github.com/qualixar/skillfortify) - External: Formal verification scanner for AI agent skills (including Claude Code skills + MCP servers). 100% precision on 540-skill benchmark. ASBOM generation. arXiv:2603.00195.
+- [shellgate](./plugins/shellgate)
+- [huiyu-safe-ai](https://github.com/huiyu9144/huiyu-safe-ai) - Lightweight AI security guard for install/download commands. Blocks 68+ malicious packages, verifies identity, scans code in <1s. Built from a real supply chain attack.
+- [web-security-guard](./plugins/web-security-guard)
+- [supply-chain-gate](./plugins/supply-chain-gate)
+- [agent-safety-preflight](./plugins/agent-safety-preflight)
+
+### MCP Servers
+- [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
+- [lazymac/mcp](https://github.com/lazymac2x/lazymac-mcp) — Unified MCP server exposing 42+ developer tools (qr, ip-geo, ai-cost, llm-router, k-privacy, korean-nlp) backed by Cloudflare Workers. `npx -y @lazymac/mcp`
+- [lazymac/k-mcp](https://github.com/lazymac2x/lazymac-k-mcp) — Korean wedge MCP — PIPA compliance, KRW + BOK rates, 사업자등록번호 lookup, address geocoding, NLP. `npx -y @lazymac/k-mcp`
+- [Lobex](https://github.com/chrisgu/lobex-mcp) - Agent-to-agent marketplace. Remote MCP `https://lobex.app/mcp` + stdio client. Site: https://lobex.app
+- [mcp-interactive-terminal](https://github.com/amol21p/mcp-interactive-terminal) — Real interactive terminal sessions for REPLs, SSH, database clients, and any interactive CLI — with clean text output, smart completion detection, and multi-layer security. Install: `claude mcp add terminal -- npx -y mcp-interactive-terminal`
+* [SkillFlow](https://github.com/rafsilva85/skillflow-mcp-server) - AI Skills Marketplace discovery server. Search, compare, and get installation instructions for curated MCP servers and AI agent tools.
+- [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
+- [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
+- [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
+
+### Thinking & Knowledge Management
+- [thinking-tree](https://github.com/CoralLips/thinking-tree)
+
+### Companion Apps & Tools
+- [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+
+### Knowledge Management
+- [bedrock](./plugins/bedrock)
 
 ## External Marketplaces
 
@@ -288,6 +398,9 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 ### Skills & Frameworks
 - [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
+
+## Resources
+- [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
 
 ## Tutorials
 
@@ -311,6 +424,7 @@ Example:
 ## Marketplaces
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
+- [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
 
 ## Contributing
 
