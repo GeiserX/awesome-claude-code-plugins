@@ -9,6 +9,8 @@ Changes made on 2026-08-12:
 
 - emit proactive credential warnings through Claude Code's documented
   `systemMessage` hook response instead of successful-hook stderr;
+- raise the `UserPromptSubmit` hook timeout in `hooks/hooks.json` from 10 to
+  15 seconds;
 - verify reactive auto-login through STS when no expiration field is configured;
 - require verified SSH host keys by default, make trust-on-first-use explicit,
   and remove plaintext SSH-password support;
